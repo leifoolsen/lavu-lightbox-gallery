@@ -109,17 +109,28 @@ Example:
         outline: 2px auto -webkit-focus-ring-color;
         outline-offset: -4px;
       }
-      :host ::content img {
+      :host ::content > .cc img {
         max-width: 100%;
         max-height: 100%;
 
         /* In firefox, if height > width set height: 100%; using JS */
-        /* Opera messes up totally when puttinh img tag inside flexbox */
+        /* Opera totally messes up when putting img tag inside flexbox */
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
       }
 
+      /* As an alternative to img tag, use background-image property */
+      :host ::content > .cc .img-box {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*background-image: url(none)*/
+      }
 
     </style>
 
