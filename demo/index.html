@@ -1,0 +1,94 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>lavu-lightbox-gallery Demo</title>
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../paper-styles/paper-styles.html">
+  <link rel="stylesheet" href="../../paper-styles/demo.css">
+  <link rel="import" href="../lavu-lightbox-gallery.html">
+
+  <style is="custom-style">
+
+    .img-box, .img-box2, .img-box3, .img-box4, .img-box5, .img-box6,
+    .img-box7, .img-box8, .img-box9, .img-box10, .img-box11, .img-box12 {
+      display: block;
+      width: 100%;
+      height: 100%;
+
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('./images/_D802141.jpg')
+    }
+    .img-box2 {
+      background-image: url('./images/_D802591.jpg')
+    }
+    .img-box3 {
+      background-image: url('./images/_D804370-3.jpg')
+    }
+    .img-box4 {
+      background-image: url('./images/_D808689.jpg')
+    }
+    .img-box5 {
+      background-image: url('./images/_D802181.jpg')
+    }
+    .img-box6 {
+      background-image: url('./images/_D800912.jpg')
+    }
+    .img-box7 {
+      background-image: url('./images/_D809453-_D809457-4.jpg')
+    }
+    .img-box8 {
+      background-image: url('./images/_DSC8214.jpg')
+    }
+    .img-box9 {
+      background-image: url('./images/_D800017.jpg')
+    }
+    .img-box10 {
+      background-image: url('./images/_D800023.jpg')
+    }
+    .img-box11 {
+      background-image: url('./images/_D800851.jpg')
+    }
+    .img-box12 {
+      background-image: url('./images/_D800166.jpg')
+    }
+
+  </style>
+
+</head>
+<body unresolved>
+  <h2>Examples of <code>&lt;lavu-lightbox-gallery&gt;</code>:</h2>
+
+  <lavu-lightbox-gallery>
+    <div class="cc"><div class="img-box"></div></div>
+    <div class="cc"><div class="img-box2"></div></div>
+    <div class="cc"><div class="img-box3"></div></div>
+    <div class="cc"><div class="img-box4"></div></div>
+    <div class="cc"><div class="img-box5"></div></div>
+    <div class="cc"><div class="img-box6"></div></div>
+    <div class="cc"><div class="img-box7"></div></div>
+    <div class="cc"><div class="img-box8"></div></div>
+    <div class="cc"><div class="img-box9"></div></div>
+    <div class="cc"><div class="img-box10"></div></div>
+    <div class="cc"><div class="img-box11"></div></div>
+    <div class="cc"><div class="img-box12"></div></div>
+  </lavu-lightbox-gallery>
+
+  <script>
+    var seedElement = document.querySelector('lavu-lightbox-gallery');
+  </script>
+
+</body>
+</html>
