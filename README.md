@@ -1,6 +1,6 @@
 # lavu-lightbox-gallery
 
-<img src="lavu-lightbox-gallery.jpg" style="width:100%; max-width: 1200px; margin: 0 auto;"/>
+<img src="https://github.com/leifoolsen/lavu-lightbox-gallery/blob/master/lavu-lightbox-gallery.jpg" style="width:100%; max-width: 1200px; margin: 0 auto;"/>
 
 The `lavu-lightbox-gallery` component is a Polymer 1.x responsive thumbnail galley.
 
